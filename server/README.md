@@ -5,7 +5,7 @@
 |npm modules|
 |-|
 |snowpack|
-|`@socket.io/admin-ui`|
+|@socket.io/admin-ui|
 |socket.io|
 |devDependencies|
 |nodemon|
