@@ -1,50 +1,100 @@
 body {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 90%;
-    max-width: 1200px;
-  }
+  margin: 0 auto;
+  display: flex;
+  background: linear-gradient(to right, rgb(105, 176, 242), rgb(255, 128, 244));
 
-  #message-container {
-    border: 3px solid black;
-    flex-grow: 1;
-    overflow-y: auto;
-    box-shadow: 6px 5px 10px;
-  }
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 90%;
+  min-width: 540px;
+  max-width: 1200px;
+}
 
-  #message-container div {
-    background-color: #CCC;
-    padding: 5px;
-  }
+#message-container {
+  border: 3px solid black;
+  height: 75vh;
+  width: 90%;
+  flex-grow: 1;
+  overflow-y: auto;
+  box-shadow: 6px 5px 10px;
+}
 
-  #message-container div:nth-child(2n) {
-    background-color: #FFF;
-  }
+#message-container div {
+  background-color: #ccc;
+  padding: 5px;
+}
 
-  #send-container {
-    position: fixed;
-    padding-bottom: 30px;
-    bottom: 0;
-    background-color: white;
-    max-width: 1200px;
-    width: 80%;
-    display: flex;
-  }
+#message-container div:nth-child(2n) {
+  background-color: #fff;
+}
 
-  #message-input {
-    margin: 10px 2px 2px 2px;
-    text-align: center;
-  }
+#send-container {
+  position: fixed;
+  padding-bottom: 30px;
+  bottom: 0;
+  background-color: #ccc;
+  max-width: 1200px;
+  width: 80%;
+  display: flex;
+}
 
-  div {
-    font-family: 'Times New Roman';
-    font-size: 20px;
-  }
-  .message {
-    color: rgba(0, 0, 0, 1);
-    border-bottom: 2px rgb(56, 45, 45) solid;
-    margin: auto;
-  }
+#message-input {
+  margin: 10px 2px 2px 2px;
+  text-align: center;
+}
+
+div {
+  background: linear-gradient(to right, rgb(105, 176, 242), rgb(255, 128, 244));
+  font-family: "Times New Roman";
+  font-size: 18px;
+  padding: 1px 1px 2px 2px;
+  border-radius: 20px 0px;
+}
+.message {
+  font: 14px "Times New Roman", sans-serif;
+  color: rgb(26, 26, 26);
+  text-align: left;
+  letter-spacing: 0.3em;
+  width: 100%;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+form {
+  border: 3px solid black;
+  text-align: left;
+  height: 4px;
+  width: 90%;
+  flex-grow: 1;
+  overflow-y: auto;
+  box-shadow: 6px 5px 10px;
+}
+
+label {
+  border: #fff solid 1px;
+  background: linear-gradient(to right, rgb(105, 176, 242), rgb(255, 128, 244));
+  border-radius: 12px;
+  margin: 8px 8px 8px 8px;
+  padding: 6px 6px 6px 6px;
+}
+
+input {
+  border: #fff solid 1px;
+  border-radius: 12px;
+  margin: 8px 8px 8px 8px;
+  padding: 6px 6px 6px 6px;
+}
+
+button {
+  padding: 6px 6px 6px 6px;
+  background: linear-gradient(to right, rgb(105, 176, 242), rgb(255, 128, 244));
+  border-radius: 12px;
+  transition: all 0.5s;
+
+}
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+}
