@@ -5,9 +5,9 @@ Realtime Simple Chat app
 # Start the Client side server
 
 ```sh
-cd client 
+cd client
+npm install 
 npm start
-
 ```
 
 <br>
@@ -15,7 +15,7 @@ npm start
 # Start the Server side 
 
 ```sh
-cd server 
-npm start
+cd server
+npm install 
 npm run devStart
 ```

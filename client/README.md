@@ -5,7 +5,6 @@
 |npm modules|
 |-|
 |socket.io-client|
-
 |devDependencies|
 |snowpack|
 
