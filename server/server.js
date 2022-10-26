@@ -7,7 +7,7 @@ const io = require("socket.io")(3000, {
 
 const userIo = io.of('/user')
 userIo.on('connection', socket =>{
-    console.log('connected to user namespcae with username ' + socket.username);
+    console.log('connected to user namespace with username ' + socket.username);
 });
 
 userIo.use((socket, next)=>{
